@@ -1,0 +1,5 @@
+appdata/
+*.log
+*.mdmp
+*.bak
+*.tmp
