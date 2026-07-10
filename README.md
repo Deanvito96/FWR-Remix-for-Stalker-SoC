@@ -1,2 +1,3 @@
-# Stalker-SoC-FWR-Remix-for-Recession-Addon
+# Stalker-SoC-FWR-Remix
+
 This is a reanimation project based on FWR
