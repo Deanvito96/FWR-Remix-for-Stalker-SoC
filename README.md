@@ -17,8 +17,7 @@ It includes optional weapons from EWP 1.0 to fill in the gaps.
 - Adjusted weapon damage and hit power to be similar to SoC.
 
 ## To-Do
-- Add unique weapons from EWP 1.1.
-- Add additional weapons to spawn lists (P90, PKM, and both sawn-off and full-length double-barrel shotguns).
+- ZRP text improvement
 
 ## Credits
 - rnm_016
