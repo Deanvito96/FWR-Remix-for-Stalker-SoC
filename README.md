@@ -23,9 +23,9 @@ This project is built upon **FWR** (originally created for OLR 2.5), adapted to 
 | **FWR EWP Sawn-Offs** | Replaces the FWR full-length double-barrel shotgun with the EWP sawn-off variant. |
 | **FWR EWP Uniques** | Overhauls unique SoC weapons with EWP replacements. Includes the **VSK-94** *(RMA mod only)*, **MP-133**, and **RPK**. |
 | **New Firing Sounds** | Upgrades weapon audio using assets from *Mari Weapons* and suppressed sounds from *TAZ*. |
-| **Real Weapon Names** | Restores real-world weapon names for all guns, including pre-release build weapons. |
-| **Build Arm Textures** | Replaces stock SoC arm textures with classic pre-release build textures. |
-| **NLC Icons** | Replaces UI weapon icons with assets from *NLC* and *AMK*. |
+| **Real Weapon Names** | Restores real-world weapon names for all guns, just like in builds. |
+| **Build Arm Textures** | Replaces stock SoC arm textures with green build textures. |
+| **NLC Icons** | Replaces UI icons with assets from *NLC* and *AMK*. |
 
 ---
 
