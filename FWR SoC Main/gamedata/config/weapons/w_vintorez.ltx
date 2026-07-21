@@ -60,7 +60,8 @@ kill_msg_height			= 25
 ;-----------------------------------------------------------------------------------
 ;базова€ дисперси€
 fire_dispersion_base		= 0.05	;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
-control_inertion_factor		= 1.1f
+control_inertion_factor		= 1.04f
+cam_relax_speed_ai         	= 360
 
 ;отдача
 cam_relax_speed         	= 4.75	;скорость возврата в исходное положение
@@ -94,13 +95,13 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power           = 0.75
-hit_impulse		    = 8.7
+hit_power           = 0.65, 0.69, 0.72, 0.75
+hit_impulse		    = 100
 hit_type 			= fire_wound
 
-fire_distance           = 1000
+fire_distance           = 400 ;1000
 bullet_speed			= 290	;начальна€ скорость пули
-rpm                     	= 600
+rpm                     = 600
 ; end ttc
 
 use_aim_bullet			= true		;ѕоддерживаетс€ ли перва€ суппер пул€

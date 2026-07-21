@@ -43,6 +43,7 @@ fire_dispersion_base		= 0.5  ;угол (в градусах) базовой дисперсии оружия (оружия
 
 ;отдача
 cam_relax_speed         	= 7.0	;скорость возврата в исходное положение
+cam_relax_speed_ai         	= 360
 cam_dispersion          	= 3.0	;увеличения угла (в градусах) с каждым выстрелом
 cam_dispersion_inc			= 0.0	;увеличениe cam_dispersion с каждым выстрелом
 cam_dispertion_frac			= 1.0   
@@ -92,9 +93,8 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-
-hit_power        			= 0.93
-hit_impulse      			= 24
+hit_power        			= 0.83, 0.87, 0.90, 0.93
+hit_impulse      			= 240
 hit_type 					= fire_wound
 
 fire_distance            	= 100

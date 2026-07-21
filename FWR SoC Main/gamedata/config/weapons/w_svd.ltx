@@ -37,22 +37,22 @@ ammo_class		= ammo_7.62x54_7h1, ammo_7.62x54_7h14, ammo_7.62x54_ap
 sprint_allowed		= true
 ;-----------------------------------------------------------------------------------
 ;базовая дисперсия
-fire_dispersion_base		= 0.021  ;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+fire_dispersion_base		= 0.03	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
 control_inertion_factor		= 2.2f
 
 ;отдача
-cam_relax_speed         	= 3.5	;скорость возврата в исходное положение
+cam_relax_speed         	= 4.5	;скорость возврата в исходное положение
 cam_dispersion          	= 2.0	;увеличения угла (в градусах) с каждым выстрелом
 cam_dispersion_inc		= 0.5	;увеличениe cam_dispersion с каждым выстрелом
 cam_dispertion_frac		= 1.0	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
-cam_max_angle			= 18.0	;максимальный угол отдачи
-cam_max_angle_horz		= 4.0	;(degree) maximum shot horizontal degree 
-cam_step_angle_horz		= 2.25	;(degree) size of step camera moved in horizontal position while shooting
+cam_max_angle			= 15.0	;максимальный угол отдачи
+cam_max_angle_horz		= 3.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.25	;(degree) size of step camera moved in horizontal position while shooting
 
 fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
 misfire_probability 		= 0.005 ;вероятность осечки при максимальном износе 
-misfire_condition_k		= 0.05
-condition_shot_dec 		= 0.0002 ;0.000002 ;увеличение износа при каждом выстреле
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0002 ;увеличение износа при каждом выстреле
 ;-----------------------------------------------------------------------------------
 
 hand_dependence 		= 1
@@ -88,20 +88,20 @@ shell_point		 		= 0.0, 0.129, 0.192
 shell_dir		 		= 0.0, 0.0, 0.4
 shell_particles	 		= weapons\762x54
 
-PDM_disp_base 			= 4.0
-PDM_disp_vel_factor 		= 1.8
-PDM_disp_accel_factor 		= 1.0
-PDM_crouch	 		= 1.8
-PDM_crouch_no_acc 		= 1.0
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 			= 1.3
+PDM_disp_accel_factor 			= 1.3
+PDM_crouch	 			= 1.0
+PDM_crouch_no_acc 			= 1.0
 
 ; ttc
-hit_power           = 1.20
-hit_impulse		 	= 19
+hit_power           = 0.85, 0.90, 1.00, 1.10
+hit_impulse		 	= 190
 hit_type 			= fire_wound
 
 fire_distance           	= 1000
-bullet_speed		 	= 850
-rpm                     	= 40
+bullet_speed		 	= 850	;начальная скорость пули
+rpm                     	= 150
 ; end ttc
 
 silencer_hit_power       	= 2.0
@@ -140,7 +140,7 @@ ph_mass			= 3
 
 ;addons
 scope_status		= 2
-silencer_status		= 2
+silencer_status				= 0
 grenade_launcher_status	= 0
 
 zoom_enabled		= true

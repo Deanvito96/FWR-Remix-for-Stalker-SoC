@@ -59,8 +59,9 @@ animation_slot		= 2		; type of the animation that will be used
 
 ;-----------------------------------------------------------------------------------
 ;базова€ дисперси€
-fire_dispersion_base		= 0.25;0.33 	;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+fire_dispersion_base		= 0.3	;0.25 	;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
 control_inertion_factor		= 1.07f
+cam_relax_speed_ai         	= 360
 
 ;отдача
 cam_relax_speed        		= 6.5;0.2	;скорость возврата в исходное положение
@@ -96,17 +97,22 @@ PDM_crouch	 	= 1.0
 PDM_crouch_no_acc 	= 1.0
 
 ; ttc
-hit_power        	= 0.41
-hit_impulse		 	= 12
+hit_power        	= 0.31, 0.35, 0.38, 0.41
+hit_impulse		 	= 120
 hit_type 			= fire_wound
 
-fire_distance          	= 200
-bullet_speed		= 400 	;начальна€ скорость пули
+fire_distance          	= 200 ;1000
+bullet_speed			= 400 ;300 ;400	;начальна€ скорость пули
 rpm                     = 800
 ; end ttc
 
-use_aim_bullet		= true		;ѕоддерживаетс€ ли перва€ суппер пул€
-time_to_aim		= 1.0	
+use_aim_bullet				= true		;ѕоддерживаетс€ ли перва€ суппер пул€
+time_to_aim					= 1.0	
+
+silencer_hit_power       	= 0.30
+silencer_hit_impulse	 	= 100
+silencer_fire_distance   	= 150
+silencer_bullet_speed	 	= 290
 
 hud                     = wpn_mp5_hud
 normal                  = 0, 1, 0
@@ -160,7 +166,7 @@ snd_empty			= weapons\gen_empty, 0.5
 snd_reload			= weapons\mp5_reload
 
 silencer_hit_power       	= 40
-silencer_hit_impulse	 	= 12
+silencer_hit_impulse	 	= 120
 silencer_fire_distance   	= 250
 silencer_bullet_speed	 	= 300
 

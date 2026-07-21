@@ -23,7 +23,7 @@ holder_range_modifier	= 1.85            ; во сколько раз увеличивается eye_range
 holder_fov_modifier		= 0.3              ; во сколько раз увеличивается eye_fov
 ;-----------------------------------------------------------------------------------
 
-cost					 = 25000
+cost					 = 17000
 weapon_class			 = assault_rifle
 
 ammo_limit		         = 180
@@ -60,6 +60,7 @@ kill_msg_height				= 30
 ;базовая дисперсия
 fire_dispersion_base		= 0.2 	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
 control_inertion_factor		= 1.15f
+cam_relax_speed_ai         	= 360
 
 ;отдача
 cam_relax_speed         	= 5.6		;скорость возврата в исходное положение
@@ -96,11 +97,11 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power          = 0.80
-hit_impulse		   = 10.5
+hit_power          = 0.60, 0.64, 0.67, 0.70
+hit_impulse		   = 105
 hit_type 		   = fire_wound
 silencer_hit_power	= 0.73
-fire_distance            	= 790
+fire_distance            	= 400
 bullet_speed			= 925	;начальная скорость пули
 rpm                      	= 860
 ; end ttc
@@ -161,7 +162,7 @@ snd_reload			= weapons\fn2000\reload
 snd_shoot_grenade	= weapons\gen_grenshoot
 snd_reload_grenade	= weapons\fn2000\grenload
 
-snd_switch			= weapons\fn2000\switch
+snd_switch					= weapons\groza_switch, 1.0, 0.5
 
 ;params when silencer is attached 
 ;similar to corresponding params without prefix silencer_

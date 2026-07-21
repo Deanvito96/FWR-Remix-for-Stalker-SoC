@@ -701,4 +701,11 @@
     <string id="enc_weapons1_wpn-vintorez_coll"> 
         <text>The modernized special sniper rifle is designed for silent and flashless sniper fire and is equipped with an integrated silencer. Changes were made to the trigger mechanism, which reduced the wear of the weapon when firing.</text> 
     </string>
+    
+	<string id="wpn-bm16_full"> 
+        <text>BM-16</text> 
+    </string> 
+	<string id="enc_weapons1_wpn-bm16_full"> 
+        <text>A classic full-length double-barreled hunting shotgun. While heavy and limited to two shots before reloading, its long barrels provide excellent capability for eliminating mutants. It is popular among newbies and bandits.\n Ammunition:\n 12x70 shot,\n 12x76 slug,\n 12x76 dart.</text> 
+    </string>
 </string_table>

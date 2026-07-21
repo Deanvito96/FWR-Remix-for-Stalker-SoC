@@ -47,7 +47,7 @@ animation_slot		= 2		; type of the animation that will be used
 
 inv_name	        = wpn-l85
 inv_name_short		= wpn-l85
-inv_weight		= 5
+inv_weight				= 4.4
 
 inv_grid_width		= 5
 inv_grid_height		= 2
@@ -61,8 +61,9 @@ kill_msg_height		= 30
 
 ;-----------------------------------------------------------------------------------
 ;базовая дисперсия
-fire_dispersion_base	= 0.25; 0.16	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
-control_inertion_factor	= 1.35f
+fire_dispersion_base		= 0.25; 0.16	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.35f
+cam_relax_speed_ai         	= 360
 
 ;отдача
 cam_relax_speed         = 5; 0.15		;скорость возврата в исходное положение
@@ -100,21 +101,21 @@ shell_particles	 		= weapons\556x45
 rpm_empty_click 	 	= 200
 
 ; ttc
-hit_power                	= 0.50
-hit_impulse		 			= 14
+hit_power                	= 0.4, 0.44, 0.47, 0.50
+hit_impulse		 			= 140
 hit_type 					= fire_wound 	
 
-fire_distance            	= 570
-bullet_speed			= 950	;начальная скорость пули
+fire_distance            	= 800
+bullet_speed				= 950	;начальная скорость пули
 rpm                      	= 650
 ; end ttc
 
 use_aim_bullet			= true		;Поддерживается ли первая суппер пуля
 time_to_aim			= 1.0	
 
-silencer_hit_power       	= 0.40
-silencer_hit_impulse	 	= 12
-silencer_fire_distance   	= 450
+silencer_hit_power       	= 0.4
+silencer_hit_impulse	 	= 120
+silencer_fire_distance   	= 250
 silencer_bullet_speed	 	= 600
 
 hud                      	= wpn_l85_hud
@@ -143,7 +144,7 @@ ph_mass				= 5
 
 ;addons
 scope_status			= 1
-silencer_status			= 2
+silencer_status				= 0;2
 grenade_launcher_status		= 2
 
 zoom_enabled			= true

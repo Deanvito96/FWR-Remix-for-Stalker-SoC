@@ -6,8 +6,8 @@ inv_name						= novice_outfit_name_m
 inv_name_short					= novice_outfit_name_m
 description						= novice_outfit_description_m
 health_restore_speed			= 0.0006
-satiety_restore_speed			= 0.001
-bleeding_restore_speed			= -0.006
+satiety_restore_speed			= 0.00002 ;0.001
+bleeding_restore_speed			= 0.006
 power_restore_speed				= 0.003
 inv_grid_x						= 12
 inv_grid_y						= 21
@@ -29,7 +29,7 @@ $spawn							= "outfit\uniq\outfit_dolg_m1"
 inv_name						= dolg_outfit_name_m1
 inv_name_short					= dolg_outfit_name_m1
 description						= dolg_outfit_description_m1
-wound_protection				= 0.7 ; TODO Нужна защита от монстров
+wound_protection				= 0.7
 inv_grid_x						= 16
 inv_grid_y						= 21
 ; TODO Уменьшить износ
@@ -39,7 +39,8 @@ $spawn							= "outfit\uniq\outfit_killer_m1"
 inv_name						= killer_outfit_name_m1
 inv_name_short					= killer_outfit_name_m1
 description						= killer_outfit_description_m1
-wound_protection				= 0.6 ; TODO Нужна защита от монстров
+wound_protection				= 0.6
+fire_wound_protection  			= 0.3
 bones_koeff_protection			= gilet_antigas_damage ; TODO Нужна защита от пуль
 inv_grid_x						= 18
 inv_grid_y						= 21
@@ -63,7 +64,7 @@ $spawn							= "outfit\uniq\outfit_specnaz_m1"
 inv_name						= specnaz_outfit_name_m1
 inv_name_short					= specnaz_outfit_name_m1
 description						= specnaz_outfit_description_m1
-bleeding_restore_speed			= -0.006
+bleeding_restore_speed			= 0.006
 inv_grid_x						= 18
 inv_grid_y						= 24
 ; TODO Уменьшить износ
@@ -96,7 +97,7 @@ inv_name						= svoboda_outfit_name_m1
 inv_name_short					= svoboda_outfit_name_m1
 description						= svoboda_outfit_description_m1
 shock_protection 				= 0.9
-;strike_protection 				= 0.1
+inv_weight			= 4.0
 inv_grid_x						= 12
 inv_grid_y						= 24
 nightvision_sect				= effector_nightvision_bad
@@ -145,9 +146,9 @@ inv_name	        			= wpn-abakan_m1_soc
 inv_name_short					= wpn-abakan_m1_soc
 fire_dispersion_base			= 0.12
 scope_status					= 1
-scope_zoom_factor				= 20
+scope_zoom_factor				= 27
 scope_texture					= wpn\wpn_crosshair
-condition_shot_dec 				= 0.0001
+; condition_shot_dec 				= 0.0001
 inv_grid_x						= 11
 inv_grid_y						= 37
 
@@ -157,7 +158,7 @@ inv_name						= wpn-fort_m
 inv_name_short					= wpn-fort_m
 description						= enc_weapons1_wpn-fort_m1
 ammo_mag_size		 			= 15
-condition_shot_dec 				= 0.0001
+; condition_shot_dec 				= 0.0001
 inv_grid_x						= 10
 inv_grid_y						= 21
 
@@ -167,18 +168,18 @@ description						= enc_weapons1_wpn-ak74u_m1
 inv_name	        			= wpn-ak74u_m1
 inv_name_short					= wpn-ak74u_m1
 silencer_status					= 1
-condition_shot_dec 				= 0.00003
+; condition_shot_dec 				= 0.00003
 inv_grid_x						= 5
 inv_grid_y						= 20
 inv_grid_width					= 5
 
 smoke_particles 				= weapons\generic_shoot_00
-flame_particles					= 
+flame_particles					= ;
 light_disabled					= true
-snd_shoot					= weapons\w_ak74_shot1 
-snd_shoot1					= weapons\w_ak74_shot1 
-snd_shoot2					= weapons\w_ak74_shot1 
-snd_shoot3					= weapons\w_ak74_shot1 
+snd_shoot					= weapons\w_ak74_shot1
+snd_shoot1					= weapons\w_ak74_shot1
+snd_shoot2					= weapons\w_ak74_shot1
+snd_shoot3					= weapons\w_ak74_shot1
 
 [wpn_mp5_m1]:wpn_mp5	;Модифицированный МП5
 $spawn             				= "weapons\uniq\wpn_mp5_m1"
@@ -196,7 +197,13 @@ description						= enc_weapons1_wpn-groza_m1
 inv_name	        			= wpn-groza_m1
 inv_name_short					= wpn-groza_m1
 ammo_class						= ammo_5.45x39_fmj, ammo_5.45x39_ap
-condition_shot_dec 				= 0.00005
+; condition_shot_dec 				= 0.00005
+fire_dispersion_base			= 0.25
+hit_power               		= 0.35, 0.39, 0.42, 0.45
+hit_impulse		 				= 120
+fire_distance            		= 400
+bullet_speed					= 800
+ammo_mag_size					= 30
 inv_grid_x						= 5
 inv_grid_y						= 29
 
@@ -206,7 +213,7 @@ description						= enc_weapons1_wpn-spas12_m1
 inv_name						= wpn-spas12_m1
 inv_name_short					= wpn-spas12_m1
 fire_dispersion_base			= 0.25
-condition_shot_dec 				= 0.00015
+; condition_shot_dec 				= 0.00015
 inv_grid_x						= 0
 inv_grid_y						= 34
 
@@ -215,10 +222,10 @@ $spawn             				= "weapons\uniq\wpn_winchester_m1"
 description						= enc_weapons1_wpn-winchester_m1
 inv_name	        			= wpn-winchester_m1
 inv_name_short					= wpn-winchester_m1
-hit_power        				= 0.9
+hit_power        				= 0.95
 hit_impulse      				= 250
 ammo_mag_size		 			= 5
-condition_shot_dec 				= 0.00015
+; condition_shot_dec 				= 0.00015
 inv_grid_x						= 0
 inv_grid_y						= 35
 
@@ -227,9 +234,10 @@ $spawn             				= "weapons\uniq\wpn_l85_m1"
 description						= enc_weapons1_wpn-l85_m1
 inv_name	        			= wpn-l85_m1
 inv_name_short					= wpn-l85_m1
-cam_dispersion					= 0.05		
-cam_dispersion_inc				= 0.1
-condition_shot_dec 				= 0.00005
+fire_dispersion_base		= 0.23
+cam_dispersion					= 0.10		
+cam_dispersion_inc				= 0.15
+; condition_shot_dec 				= 0.00005
 inv_grid_x						= 5
 inv_grid_y						= 25
 
@@ -243,7 +251,7 @@ fire_dispersion_base			= 0.09
 scope_texture					= wpn\wpn_crosshair_l85
 scope_status					= 1
 silencer_status					= 1
-condition_shot_dec 				= 0.00005
+; condition_shot_dec 				= 0.00005
 inv_grid_x			= 6  	
 inv_grid_y         = 35
 inv_weight						= 3.0
@@ -251,7 +259,6 @@ inv_weight						= 3.0
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
-
 snd_shoot					= weapons\w_ak74_shot1 
 
 [wpn_svd_m1]:wpn_svd	;СВД "Дальнобойщик"
@@ -261,9 +268,9 @@ inv_name						= wpn-svd_m1
 inv_name_short					= wpn-svd_m1
 cam_dispersion					= 0.9
 cam_step_angle_horz				= 0.1
-scope_zoom_factor				= 10
+scope_zoom_factor				= 27
 scope_status					= 1
-condition_shot_dec 				= 0.00055
+; condition_shot_dec 				= 0.00055
 inv_grid_x						= 5
 inv_grid_y						= 23
 
@@ -275,8 +282,8 @@ inv_name_short					= wpn-sig_m1
 scope_status					= 0
 silencer_status					= 0
 grenade_launcher_status			= 0
-inv_weight						= 2.2
-condition_shot_dec 				= 0.00005
+inv_weight						= 3.0 ;2.2
+; condition_shot_dec 				= 0.00005
 inv_grid_x						= 0
 inv_grid_y						= 32
 
@@ -287,7 +294,7 @@ inv_name						= wpn-eagle_m1
 inv_name_short					= wpn-eagle_m1
 ammo_class						= ammo_9x39_sp5, ammo_9x39_ap, ammo_9x39_pab9
 hit_power               		= 0.67
-condition_shot_dec				= 0.0003
+; condition_shot_dec				= 0.0003
 inv_grid_x						= 9
 inv_grid_y						= 22
 
@@ -297,15 +304,14 @@ description						= enc_weapons1_wpn-colt_m1
 inv_name						= wpn-colt_m1
 inv_name_short					= wpn-colt_m1
 silencer_status					= 1
-condition_shot_dec 				= 0.00033
+; condition_shot_dec 				= 0.00033
 inv_grid_x						= 18
 inv_grid_y						= 20
-
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
-
 snd_shoot			= weapons\pb_shoot
+inv_weight			= 1.2
 
 
 [wpn_val_m1]:wpn_val	;Модифицированный Вал
@@ -315,7 +321,7 @@ inv_name						= wpn-val_m1
 inv_name_short					= wpn-val_m1
 scope_status					= 2
 scope_texture					= wpn\wpn_crosshair
-condition_shot_dec 				= 0.00005
+; condition_shot_dec 				= 0.00005
 inv_grid_x						= 5
 inv_grid_y						= 31
 
@@ -326,7 +332,7 @@ inv_name	        			= wpn-mp5_m2
 inv_name_short					= wpn-mp5_m2
 silencer_status					= 1
 fire_dispersion_base			= 0.15
-condition_shot_dec 				= 0.00003
+; condition_shot_dec 				= 0.00003
 inv_grid_x						= 5
 inv_grid_y						= 22
 inv_grid_width					= 4
@@ -344,10 +350,10 @@ inv_name	        			= wpn-abakan_m2_soc
 inv_name_short					= wpn-abakan_m2_soc
 grenade_launcher_status			= 1
 grenade_vel						= 76
-condition_shot_dec 				= 0.00003
+; condition_shot_dec 				= 0.00003
 inv_grid_x						= 16
 inv_grid_y						= 37
-inv_weight						= 5.2
+inv_weight			= 5.3
 
 [wpn_l85_m2]:wpn_l85	;Облегченная l85
 $spawn             				= "weapons\uniq\wpn_l85_m2"	
@@ -355,18 +361,15 @@ description						= enc_weapons1_wpn-l85_m2
 inv_name	        			= wpn-l85_m2
 inv_name_short					= wpn-l85_m2
 silencer_status					= 1
-inv_weight						= 3
-condition_shot_dec 				= 0.00005
+inv_weight						= 3.5
+; condition_shot_dec 				= 0.00005
 inv_grid_x						= 0
 inv_grid_y						= 24
 
 smoke_particles 				= weapons\generic_shoot_00
-flame_particles					= 
+flame_particles					= ;
 light_disabled					= true
-
-snd_shoot					= weapons\w_ak74_shot1 
-
-
+snd_shoot					= weapons\w_ak74_shot1
 
 [wpn_sig_m2]:wpn_sig550	;SiG снайперский
 $spawn             				= "weapons\uniq\wpn_sig_m2"	
@@ -374,9 +377,10 @@ description						= enc_weapons1_wpn-sig_m2
 inv_name						= wpn-sig_m2
 inv_name_short					= wpn-sig_m2
 scope_status					= 1
-scope_zoom_factor				= 20
+scope_zoom_factor		= 20
 scope_texture					= wpn\wpn_crosshair_l85
-condition_shot_dec 				= 0.00005
+fire_dispersion_base		= 0.11
+; condition_shot_dec 				= 0.00005
 inv_grid_x						= 0
 inv_grid_y						= 22
 
@@ -386,7 +390,7 @@ description						= enc_weapons1_wpn-rg6_m1
 inv_name						= wpn-rg6_m1
 inv_name_short					= wpn-rg6_m1
 ammo_class		 				= ammo_m209
-condition_shot_dec 				= 0.00001
+; condition_shot_dec 				= 0.00001
 inv_grid_x						= 5
 inv_grid_y						= 27
 

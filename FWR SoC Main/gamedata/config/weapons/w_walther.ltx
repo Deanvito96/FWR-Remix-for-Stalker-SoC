@@ -59,6 +59,7 @@ fire_dispersion_base		= 0.3 	;угол (в градусах) базовой дисперсии оружи€ (оружи€
 
 ;отдача
 cam_relax_speed         	= 8.5	;скорость возврата в исходное положение
+cam_relax_speed_ai         	= 360
 cam_dispersion          	= 0.47	;увеличени€ угла (в градусах) с каждым выстрелом
 cam_dispersion_inc		= 0.0	;увеличениe cam_dispersion с каждым выстрелом
 cam_dispertion_frac		= 1.0	;ствол будет подыматьс€ на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
@@ -90,21 +91,21 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power           = 0.41
-hit_impulse		 	= 12.5
+hit_power           = 0.31, 0.35, 0.38, 0.41
+hit_impulse		 	= 125
 hit_type 			= fire_wound	
 
-fire_distance           = 150 ;1000
+fire_distance           = 50 ;1000
 bullet_speed		 	= 300 ;280		
-rpm                     	= 315
+rpm                     = 315
 ; end ttc
 
 use_aim_bullet			= true		;ѕоддерживаетс€ ли перва€ суппер пул€
 time_to_aim			= 1.0	
 
 silencer_hit_power       	= 0.37
-silencer_hit_impulse	 	= 10.5
-silencer_fire_distance   	= 100
+silencer_hit_impulse	 	= 105
+silencer_fire_distance   	= 50
 silencer_bullet_speed	 	= 280
 
 hud                      	= wpn_walther_hud

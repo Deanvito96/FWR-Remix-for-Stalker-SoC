@@ -56,23 +56,23 @@ kill_msg_height				= 23
 
 
 
-fire_dispersion_base		= 0.22 
-disp_rate 					= 1.85
+fire_dispersion_base		= 0.3 	;óãîë (â ãðàäóñàõ) áàçîâîé äèñïåðñèè îðóæèÿ (îðóæèÿ çàæàòîãî â òèñêàõ)
 
 
-cam_relax_speed         	= 8.5
-cam_dispersion          	= 0.47
-cam_dispersion_inc			= 0.0
-cam_dispertion_frac			= 1.0	;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
-cam_max_angle				= 20.0
-cam_max_angle_horz			= 10.0
-cam_step_angle_horz			= 0.7
+cam_relax_speed         	= 8.5	;ñêîðîñòü âîçâðàòà â èñõîäíîå ïîëîæåíèå
+cam_relax_speed_ai         	= 360
+cam_dispersion          	= 0.47	;óâåëè÷åíèÿ óãëà (â ãðàäóñàõ) ñ êàæäûì âûñòðåëîì
+cam_dispersion_inc		= 0.0	;óâåëè÷åíèe cam_dispersion ñ êàæäûì âûñòðåëîì
+cam_dispertion_frac		= 1.0	;ñòâîë áóäåò ïîäûìàòüñÿ íà cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 20.0	;ìàêñèìàëüíûé óãîë îòäà÷è
+cam_max_angle_horz		= 10.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.7	;(degree) size of step camera moved in horizontal position while shooting
 
-fire_dispersion_condition_factor = 5
-misfire_probability 		= 0.005
-misfire_condition_k			= 0.05
-condition_shot_dec 			= 0.0003 
-
+fire_dispersion_condition_factor = 5	;óâåëè÷åíèå äèñïåðñèè â ïðîöåíòàõ ïðè ìàêñèìàëüíîì èçíîñå 
+misfire_probability 	= 0.005	;âåðîÿòíîñòü îñå÷êè ïðè ìàêñèìàëüíîì èçíîñå 
+misfire_condition_k		= 0.05
+condition_shot_dec 		= 0.0003 ;óâåëè÷åíèå èçíîñà ïðè êàæäîì âûñòðåëå
+;-----------------------------------------------------------------------------------
 
 direction           	    = 0, 0, 1
 fire_point               	= 0.0, 0.136, 0.133
@@ -93,21 +93,21 @@ PDM_crouch					= 1.0
 PDM_crouch_no_acc			= 1.0
 
 
-hit_power           = 0.41
-hit_impulse		 	= 12.5
+hit_power           = 0.31, 0.35, 0.38, 0.41
+hit_impulse		 	= 125
 hit_type					= fire_wound	
 hit_rate					= 1.85
 
-fire_distance          		= 150
-bullet_speed		 		      = 300		
-rpm                   		= 215
+fire_distance           = 50 ;1000
+bullet_speed		 	= 300 ;280		
+rpm                     = 315
 
 use_aim_bullet				= true
 time_to_aim					= 1.0	
 
-silencer_hit_power       	= 0.26
-silencer_hit_impulse	 	= 12
-silencer_fire_distance   	= 40
+silencer_hit_power       	= 0.37
+silencer_hit_impulse	 	= 105
+silencer_fire_distance   	= 50
 silencer_bullet_speed	 	= 280
 
 hud                      	= wpn_walther_hud
