@@ -2,6 +2,8 @@
 
 This is a weapon reanimation project based on FWR (originally for OLR 2.5), adapted to work smoothly with Shadow of Chernobyl (SoC).and RMA (Old Story Restoration Addon)
 
+Implemented fix and balancing from Final Update mod.
+
 It includes optional weapons from EWP 1.0 to fill in the gaps.
 
 ## Optional Addons
@@ -23,4 +25,5 @@ It includes optional weapons from EWP 1.0 to fill in the gaps.
 - rnm_016
 - Uncle Bogdan
 - Mari/Watson
+- buka
 - TAZ Team
