@@ -9,7 +9,7 @@ It includes optional weapons from EWP 1.0 to fill in the gaps.
 2. **FWR EWP Pistols:** Replaces all FWR pistols with EWP versions, since FWR only features new animations for the PM and PB.
 3. **FWR EWP Sawn-Offs:** Replaces the FWR full double-barrel shotgun with the EWP sawn-off shotgun.
 4. **FWR EWP Uniques:** Adds EWP weapons by replacing existing unique weapons in SoC. Currently includes the VSK-94 (RMA mod only), MP-133, and RPK.
-5. **New Firing Sounds:** Self-explanatory. Uses sound assets from *Call of Pripyat Complete*, and *TAZ* (for suppressed sounds).
+5. **New Firing Sounds:** Self-explanatory. Uses sound assets from *Mari Weapons*, and *TAZ* (for suppressed sounds).
 
 ## Features
 - Uses vanilla SoC hand models.(Old Build textures from FWR)
@@ -23,5 +23,5 @@ It includes optional weapons from EWP 1.0 to fill in the gaps.
 ## Credits
 - rnm_016
 - Uncle Bogdan
-- Artistpavel
-·	- TAZ Team
+- Mari/Watson
+- TAZ Team
