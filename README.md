@@ -1,6 +1,6 @@
 # Stalker-SoC-FWR-Remix
 
-A weapon reanimation and overhaul project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** and the **RMA (Old Story Restoration)** addon.
+A weapon reanimation project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** and the **RMA (Old Story Restoration)** addon.
 
 This project is built on **FWR OLR**, tweaked to work seamlessly with vanilla SoC, and packed with weapon fixes and balancing tweaks from **Final Update (FU)**. It also includes optional weapon replacements from **EWP 1.0** to fill in any missing gaps.
 
@@ -10,7 +10,7 @@ This project is built on **FWR OLR**, tweaked to work seamlessly with vanilla So
 
 * **Vanilla Hand Models:** Using standard SoC hand models and compatible with arm retexture mod.
 * **Audio Overhaul:** Firing, holstering, and drawing sounds have been updated and mixed with classic SoC audio, replacing those old build-era sounds from OLR.
-* **Balanced Gameplay:** Weapon damage, hit power, and overall feel have been rebalanced using values from *Final Update* so everything fits SoC's classic flow.
+* **Vanilla Gameplay:** Weapon damage, hit power, and overall feel have been rebalanced using values from *Final Update* so everything fits SoC's overall balance.
 * **Easy to Port:** Designed to be easily ported and dropped into pretty much any SoC mod with minimal config editing.
 
 ---
