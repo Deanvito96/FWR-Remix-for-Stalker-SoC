@@ -11,6 +11,7 @@ This project is built upon **FWR OLR**, adapted to play nicely with Vanilla SoC,
 * **Vanilla Hand Models:** Integrates with default SoC hand models.
 * **Overhauled Audio:** Firing, holstering, and drawing sounds have been updated and combined with classic SoC audio, replacing outdated build-era sound effects from OLR.
 * **Balanced Gameplay:** Weapon damage, hit power, and mechanics have been rebalanced using values from *Final Update* to align naturally with SoC's gameplay.
+* * **Easy to Port:** This pack is designed to easily ported and used in any SoC mod.
 
 ---
 
