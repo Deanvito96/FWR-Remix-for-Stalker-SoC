@@ -42,7 +42,7 @@ This project is built on **FWR OLR**, tweaked to work seamlessly with vanilla So
 
 ## To-Do
 
-* [ ] *...*
+* [ ] *Adaptation for GRM 2.0 (Separate Fork)*
 
 ---
 
