@@ -2,14 +2,14 @@
 
 A weapon reanimation and overhaul project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** and the **RMA (Old Story Restoration Addon)**.
 
-This project is built upon **FWR** (originally created for OLR 2.5), adapted to play nicely with vanilla or RMA SoC, and enhanced with fixes, balancing tweaks from **Final Update (FU)**, and optional weapon replacements from **EWP 1.0** to fill missing animation gaps.
+This project is built upon **FWR OLR**, adapted to play nicely with Vanilla SoC, and enhanced with fixes, and balancing tweaks from **Final Update (FU)**. Includes optional weapon replacements from **EWP 1.0** to fill the missing gaps.
 
 ---
 
 ## Features
 
 * **Vanilla Hand Models:** Integrates with default SoC hand models.
-* **Overhauled Audio:** Firing, holstering, and drawing sounds have been updated using modern assets combined with classic SoC audio, replacing outdated build-era sound effects.
+* **Overhauled Audio:** Firing, holstering, and drawing sounds have been updated and combined with classic SoC audio, replacing outdated build-era sound effects from OLR.
 * **Balanced Gameplay:** Weapon damage, hit power, and mechanics have been rebalanced using values from *Final Update* to align naturally with SoC's gameplay.
 
 ---
@@ -25,7 +25,7 @@ This project is built upon **FWR** (originally created for OLR 2.5), adapted to 
 | **New Firing Sounds** | Upgrades weapon audio using assets from *Mari Weapons* and suppressed sounds from *TAZ*. |
 | **Real Weapon Names** | Restores real-world weapon names for all guns, just like in builds. |
 | **Build Arm Textures** | Replaces stock SoC arm textures with green build textures. |
-| **NLC Icons** | Replaces UI icons with assets from *NLC* and *AMK*. |
+| **NLC Icons** | Replaces UI icons with assets from *NLC* and *AMK* (Experimental). |
 
 ---
 
