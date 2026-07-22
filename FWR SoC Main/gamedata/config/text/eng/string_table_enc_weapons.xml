@@ -550,7 +550,7 @@
 		<text>Threaded SPSA14</text>
 	</string>
 	<string id="wpn-svd">
-		<text>Sniper rifle (SVDm 2)</text>
+		<text>SVDm 2</text>
 	</string>
 	<string id="wpn-svd_m1">
 		<text>Farshooter SVDm 2</text>
@@ -562,10 +562,10 @@
 		<text>TOS 34</text>
 	</string>
 	<string id="wpn-val">
-		<text>VLA special assault rifle</text>
+		<text>SA Avalanche</text>
 	</string>
 	<string id="wpn-val_m1">
-		<text>Sniper VLA</text>
+		<text>Sniper Avalanche</text>
 	</string>
 	<string id="wpn-vintorez">
 		<text>Vintar BC</text>
@@ -578,6 +578,56 @@
 	</string>
 	<string id="wpn-wincheaster1300">
 		<text>Chaser 13</text>
+	</string>
+	<!--EWP Abakan LR BEGIN-->
+	<string id="wpn-abakan_soc">
+		<text>Obokan</text>
+	</string>
+	<string id="wpn-abakan_m1_soc">
+		<text>Sniper Obokan</text>
+	</string>
+	<string id="wpn-abakan_m2_soc">
+		<text>Storming Obokan</text>
+	</string>
+	<string id="enc_weapons1_wpn-abakan_soc">
+		<text>The weapon of the elite troops in the Russian army. It was designed as a replacement for the outdated Akm 74/2. Not only the Obokan’s internal mechanisms but also its receiver and its barrel are movable, which decreases the recoil and increases accuracy.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-abakan_m1_soc">
+		<text>Machine gun supplied with a modified PSO-1 optical sight for carrying out sniper fire. The optics embedded into the body of the weapon has a higher resolution than the standard model.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-abakan_m2_soc">
+		<text>This machine gun has an integrated grenade launcher under the barrel, which makes this an even more universal weapon.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP,\n VOG-25 and VOG-25R grenades.</text>
+	</string>
+	<!--EWP Abakan LR END-->
+	<!--EWP Uniques BEGIN-->
+	<string id="wpn-mp133">
+		<text>Anomalous Chaser</text>
+	</string>
+	<string id="enc_weapons1_mp133">
+		<text>A modified Chaser shotgun, complete with stock and extended tube. This particular specimen was recovered near gravitational anomaly fields and exhibits strange properties, the shells hit with unnatural force as if gravity bends around each shot, though the effect makes racking the shotgun noticeably harder.\n Ammunition:\n 12x70 Buckshot,\n 12x76 Slug,\n 12x76 Dart.</text>
+	</string>
+	<string id="wpn-vsk">
+		<text>Strizh SK</text>
+	</string>
+	<string id="enc_weapons1_wpn-vsk">
+		<text>A prototype lightweight variant of the Vintar BC. Significantly lighter with a higher fire rate than its predecessor, though the reduced mass results in noticeably increased recoil that requires a steady hand to control.\n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>
+	</string>
+	<string id="wpn-rpk">
+		<text>LPKM 74/1</text>
+	</string>
+	<string id="enc_weapons1_wpn-rpk">
+		<text>An old and unique light machine gun. Heavier and more outdated than modern rifles found in the Zone, the LPKM is unmatched in sheer handheld suppressive fire capability.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
+	</string>
+	<!--EWP Uniques END-->
+	<!--RMA BEGIN-->
+	<string id="wpn-vintorez_coll">
+		<text>Vintar BC M1</text>
+	</string>
+	<string id="enc_weapons1_wpn-pri_lom_ak74">
+		<text>A stalker nicknamed Lom used to work as a mechanic at a metalworking plant. He made minor changes to the design of his Akm-74/2, which increased the weapon's rate of fire.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-vintorez_coll">
+		<text>The modernized special sniper rifle is designed for silent and flashless sniper fire and is equipped with an integrated silencer. Changes were made to the trigger mechanism, which reduced the wear of the weapon when firing.\n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>
 	</string>
 	<string id="wpn-vintorez_m">
 		<text>Custom Vintar</text>
@@ -628,7 +678,7 @@
 		<text>Even the stock GP 37 is among the best assault rifles in the Zone. However, its already high combat performance was further enhanced. A member of the "Monolith" faction ground a "Gravi" artifact into powder and rubbed it into the barrel's inner and outer surfaces. The result was a significant increase in firepower and accuracy.\n Ammunition:\n standard 5.56x45 mm SS109,\n armor-piercing 5.56x45 mm AP.</text>
 	</string>
 	<string id="wpn-gauss_m">
-		<text>Upgraded Gauss gun</text>
+		<text>Upgraded Gauss rifle</text>
 	</string>
 	<string id="enc_weapons1_wpn-gauss_m">
 		<text>The battery of this weapon is made based on the rare "Battery" artifact, so it holds enough energy for a larger number of shots.\n Ammunition - 2mm Gauss cartridges.</text>
@@ -645,51 +695,7 @@
 	<string id="enc_weapons1_wpn-desert-eagle_coll">
 		<text>Black kite with a dedication: "To the best agent of the New World".</text>
 	</string>
-	<string id="wpn-abakan_soc">
-		<text>Obokan</text>
-	</string>
-	<string id="wpn-abakan_m1_soc">
-		<text>Sniper Obokan</text>
-	</string>
-	<string id="wpn-abakan_m2_soc">
-		<text>Storming Obokan</text>
-	</string>
-	<string id="enc_weapons1_wpn-abakan_soc">
-		<text>The weapon of the elite troops in the Russian army. It was designed as a replacement for the outdated Akm 74/2. Not only the Obokan’s internal mechanisms but also its receiver and its barrel are movable, which decreases the recoil and increases accuracy.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
-	</string>
-	<string id="enc_weapons1_wpn-abakan_m1_soc">
-		<text>Machine gun supplied with a modified PSO-1 optical sight for carrying out sniper fire. The optics embedded into the body of the weapon has a higher resolution than the standard model.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
-	</string>
-	<string id="enc_weapons1_wpn-abakan_m2_soc">
-		<text>This machine gun has an integrated grenade launcher under the barrel, which makes this an even more universal weapon.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP,\n VOG-25 and VOG-25R grenades.</text>
-	</string>
-	<string id="wpn-mp133">
-		<text>Anomalous Chaser</text>
-	</string>
-	<string id="enc_weapons1_mp133">
-		<text>A modified Chaser shotgun, complete with stock and extended tube. This particular specimen was recovered near gravitational anomaly fields and exhibits strange properties, the shells hit with unnatural force as if gravity bends around each shot, though the effect makes racking the shotgun noticeably harder.\n Ammunition:\n 12x70 Buckshot,\n 12x76 Slug,\n 12x76 Dart.</text>
-	</string>
-	<string id="wpn-vsk">
-		<text>Strizh SK</text>
-	</string>
-	<string id="enc_weapons1_wpn-vsk">
-		<text>A prototype lightweight variant of the Vintar BC. Significantly lighter with a higher fire rate than its predecessor, though the reduced mass results in noticeably increased recoil that requires a steady hand to control.\n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>
-	</string>
-	<string id="wpn-rpk">
-		<text>LPKM 74/1</text>
-	</string>
-	<string id="enc_weapons1_wpn-rpk">
-		<text>An old and unique light machine gun. Heavier and more outdated than modern rifles found in the Zone, the LPKM is unmatched in sheer handheld suppressive fire capability.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
-	</string>
-	<string id="wpn-vintorez_coll">
-		<text>Vintar BC M1</text>
-	</string>
-	<string id="enc_weapons1_wpn-pri_lom_ak74">
-		<text>A stalker nicknamed Lom used to work as a mechanic at a metalworking plant. He made minor changes to the design of his Akm-74/2, which increased the weapon's rate of fire.\n Ammunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
-	</string>
-	<string id="enc_weapons1_wpn-vintorez_coll">
-		<text>The modernized special sniper rifle is designed for silent and flashless sniper fire and is equipped with an integrated silencer. Changes were made to the trigger mechanism, which reduced the wear of the weapon when firing.\n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>
-	</string>
+	<!--RMA END-->
 	<string id="wpn-bm16_full">
 		<text>BM-17</text>
 	</string>

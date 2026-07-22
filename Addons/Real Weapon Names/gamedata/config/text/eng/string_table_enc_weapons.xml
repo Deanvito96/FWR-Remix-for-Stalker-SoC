@@ -505,13 +505,13 @@
 		<text>LR-300-ML</text>
 	</string>
 	<string id="wpn-lr300_m1">
-		<text>Sniper LR-300</text>
+		<text>Sniper LR</text>
 	</string>
 	<string id="wpn-mp5">
 		<text>MP5A1</text>
 	</string>
 	<string id="wpn-mp5_m1">
-		<text>MP5A1 (9x18)</text>
+		<text>MP5A1 PMM</text>
 	</string>
 	<string id="wpn-mp5_m2">
 		<text>Silenced MP5A1</text>
@@ -553,7 +553,7 @@
 		<text>SVD</text>
 	</string>
 	<string id="wpn-svd_m1">
-		<text>SVD (Mk2)</text>
+		<text>SVD Mk2</text>
 	</string>
 	<string id="wpn-svu">
 		<text>SVU</text>
@@ -565,7 +565,7 @@
 		<text>AS Val</text>
 	</string>
 	<string id="wpn-val_m1">
-		<text>Sniper AS Val</text>
+		<text>Sniper Val</text>
 	</string>
 	<string id="wpn-vintorez">
 		<text>VSS Vintorez</text>
@@ -604,7 +604,7 @@
 		<text>Rumored to have been found in a pile of rusted metal at the Garbage, precisely where a gravitational anomaly had active residency for three months. Surprisingly, the AKS-74U was recovered in pristine condition, and its exposure to the anomaly granted it extraordinary properties: rounds fired from it possess significantly higher kinetic energy.\n\nAmmunition:\n standard 5.45x39mm FMJ,\n armor-piercing 5.45x39mm BP.</text>
 	</string>
 	<string id="wpn-groza_m">
-		<text>Upgraded OC-14 Groza</text>
+		<text>Upgraded Groza</text>
 	</string>
 	<string id="enc_weapons1_wpn-groza_m">
 		<text>This weapon was gifted to General Voronin by a master gunsmith in gratitude for saving his life. The OC-14 Groza underwent expert and meticulous modifications, with many internal action parts completely replaced. Thanks to these enhancements, its combat performance far surpasses that of standard production models.\n\nAmmunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>

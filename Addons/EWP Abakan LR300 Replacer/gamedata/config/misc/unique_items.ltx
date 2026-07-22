@@ -173,6 +173,8 @@ inv_grid_x						= 5
 inv_grid_y						= 20
 inv_grid_width					= 5
 
+inv_weight			= 2.8
+
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= ;
 light_disabled					= true
@@ -226,8 +228,12 @@ hit_power        				= 0.95
 hit_impulse      				= 250
 ammo_mag_size		 			= 5
 ; condition_shot_dec 				= 0.00015
-inv_grid_x						= 0
-inv_grid_y						= 35
+inv_grid_width     = 5
+inv_grid_height    = 1
+inv_grid_x         = 0
+inv_grid_y         = 35
+
+[wpn_winchester_m1_hud]:wpn_wincheaster1300_hud
 
 [wpn_l85_m1]:wpn_l85	;Сбалансированная L85
 $spawn             				= "weapons\uniq\wpn_l85_m1"	
@@ -249,12 +255,13 @@ inv_name_short					= wpn-lr300_m1
 rpm								= 300
 fire_dispersion_base			= 0.09
 scope_texture					= wpn\wpn_crosshair_l85
+scope_zoom_factor		= 30
+inv_weight			= 3.2
 scope_status					= 1
 silencer_status					= 1
 ; condition_shot_dec 				= 0.00005
 inv_grid_x			= 6  	
 inv_grid_y         = 35
-inv_weight						= 3.0
 
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
@@ -331,7 +338,6 @@ description						= enc_weapons1_wpn-mp5_m2
 inv_name	        			= wpn-mp5_m2
 inv_name_short					= wpn-mp5_m2
 silencer_status					= 1
-fire_dispersion_base			= 0.15
 ; condition_shot_dec 				= 0.00003
 inv_grid_x						= 5
 inv_grid_y						= 22
@@ -342,6 +348,7 @@ flame_particles					=
 light_disabled					= true
 
 snd_shoot						= weapons\w_ak74_shot1 
+inv_weight			= 2.6
 
 [wpn_abakan_m2]:wpn_abakan	;АH-94 штурмовой
 $spawn              			= "weapons\uniq\wpn_abakan_m2"	
@@ -400,7 +407,9 @@ description						= enc_weapons1_wpn-walther_m1
 inv_name	        			= wpn-walther_m1
 inv_name_short					= wpn-walther_m1
 ammo_class		 				= ammo_9x18_fmj, ammo_9x18_pmm
-condition_shot_dec 				= 0.00015
+;fire_dispersion_base		= 0.28
+;ammo_mag_size		 		= 18
+; condition_shot_dec 				= 0.00015
 inv_grid_x						= 11
 inv_grid_y						= 21
 
