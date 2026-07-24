@@ -96,21 +96,21 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power               = 0.38, 0.42, 0.45, 0.48 ;0.32, 0.36, 0.39, 0.42		;size of damage by bullet
-hit_impulse		 		= 140		;size of physic impulse by bullet	
-hit_type 				= fire_wound 	;[] type of the wound
+hit_power                	= 0.45			;size of damage by bullet
+hit_impulse		 			= 100			;size of physic impulse by bullet	
+hit_type 					= fire_wound 	;[] type of the wound
 
-fire_distance            		= 250 ;1000		;maximum fire distance that bullet can fly
-bullet_speed				= 790		;starting bullet speed
-rpm                      		= 630;735		;max round per minute
+fire_distance            	= 350;450						; maximum fire distance that bullet can fly
+bullet_speed				= 650;900						; starting bullet speed
+rpm                      	= 600						; max round per minute
 
 use_aim_bullet			= true		;Поддерживается ли первая суппер пуля
 time_to_aim			= 1.0	
 
-silencer_hit_power       		= 0.42 ;0.32
-silencer_hit_impulse	 		= 120
-silencer_fire_distance   		= 200
-silencer_bullet_speed	 		= 600
+silencer_hit_power       	= 0.40
+silencer_hit_impulse	 	= 120
+silencer_fire_distance   	= 250
+silencer_bullet_speed	 	= 600
 
 hud                      	= wpn_ak74u_hud				; name of the section of the hud
 
@@ -153,16 +153,13 @@ silencer_y                  	= 12
 ;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
 snd_draw			= weapons\ak74_draw
 snd_holster			= weapons\generic_holster
-snd_shoot					= weapons\ak74u_shot_0
-snd_shoot1					= weapons\ak74u_shot_1
-snd_shoot2					= weapons\ak74u_shot_2
-snd_shoot3					= weapons\ak74u_shot_3
+snd_shoot					= weapons\aks74u_shoot
 snd_empty			= weapons\gen_empty, 0.5
 snd_reload			= weapons\ak74u_reload, 0.7, 0.75
 
 silencer_smoke_particles 	= weapons\generic_shoot_00
 
-snd_silncer_shot			= weapons\w_ak74_shot1 
+snd_silncer_shot			= weapons\545_sil 
 
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01

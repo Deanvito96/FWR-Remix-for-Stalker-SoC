@@ -52,16 +52,16 @@ hit_probability_max_dist		= 10;
 
 gravity_const					= 9.81
 ;сопротивление воздуха, процент, который отнимается от скорости полета пули
-air_resistance_k				= 0.4;0.3
+air_resistance_k				= 0.3
 
 ;размер шага времени (в милисекундах), по которому проигрываются 
 time_step						= 33
 ;минимальная скорость (м/с), на которой пуля еще считается и показывается
 min_bullet_speed				= 3.0
 ;cколько процентов энергии потеряет пуля при столкновении с материалом (при падении под прямым углом)
-collision_energy_min			= 0.80 ;0.75; 0.90
+collision_energy_min			= 0.70 ;0.90
 ;сколько процентов энергии останется у пули при любом столкновении
-collision_energy_max			= 0.5 ;0.7;0.50
+collision_energy_max			= 0.75 ;0.50
 
 whine_sounds                    = weapons\whine_1, weapons\whine_2, weapons\whine_3, weapons\whine_4, weapons\whine_5, weapons\whine_6, weapons\whine_7, weapons\whine_8, weapons\whine_9, weapons\whine_10, weapons\whine_11, weapons\whine_12, weapons\whine_13, weapons\whine_14, weapons\whine_15, weapons\whine_16, weapons\whine_17, weapons\whine01, weapons\whine02, weapons\whine03, weapons\whine04, weapons\whine05, weapons\whine06, weapons\whine07, weapons\whine08, weapons\whine09, weapons\whine10, weapons\whine11, weapons\whine12, weapons\whine13, weapons\whine14, weapons\whine15
 
@@ -106,10 +106,10 @@ inv_grid_y			= 12
 
 
 k_dist			= 1
-k_disp			= 3
+k_disp			= 1;3
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1
+k_pierce		= 0.5
 impair			= 1
 buck_shot		= 1
 tracer			= on
@@ -140,10 +140,10 @@ inv_grid_x			= 13
 inv_grid_y			= 12
 
 k_dist			= 1
-k_disp			= 3
-k_hit			= 1.1
+k_disp			= 1;3
+k_hit			= 1.5
 k_impulse		= 2.5
-k_pierce		= 1.35
+k_pierce		= 1.5
 impair			= 1.15
 buck_shot		= 1
 tracer			= on
@@ -174,8 +174,8 @@ inv_grid_x			= 12
 inv_grid_y			= 12
 
 k_dist			= 1.5
-k_disp			= 3
-k_hit			= 1.1
+k_disp			= 1;3
+k_hit			= 1.3
 k_impulse		= 1.3
 k_pierce		= 1.1
 impair			= 1.5
@@ -208,10 +208,10 @@ inv_grid_x			= 15
 inv_grid_y			= 12
 
 k_dist			= 1
-k_disp			= 3
+k_disp			= 1;3
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1
+k_pierce		= 0.75
 impair			= 1
 buck_shot		= 1
 tracer			= on
@@ -242,10 +242,10 @@ inv_grid_x			= 14
 inv_grid_y			= 12
 
 k_dist			= 1
-k_disp			= 3
-k_hit			= 1.1
+k_disp			= 1;3
+k_hit			= 1.3
 k_impulse		= 1.5
-k_pierce		= 1.35
+k_pierce		= 1.2
 impair			= 1.15
 buck_shot		= 1
 tracer			= on
@@ -276,7 +276,7 @@ inv_grid_x			= 16
 inv_grid_y			= 11
 
 k_dist			= 1
-k_disp			= 3
+k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
 k_pierce		= 1
@@ -310,10 +310,10 @@ inv_grid_x			= 12
 inv_grid_y			= 11
 
 k_dist			= 1
-k_disp			= 2.5;3
-k_hit			= 1
+k_disp			= 1
+k_hit			= 0.975
 k_impulse		= 0.95
-k_pierce		= 1.75
+k_pierce		= 1.5
 impair			= 1.02
 buck_shot		= 1
 tracer			= on
@@ -344,7 +344,7 @@ inv_grid_x			= 14
 inv_grid_y			= 11
 
 k_dist			= 1
-k_disp			= 2.5;3
+k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
 k_pierce		= 1
@@ -378,10 +378,10 @@ inv_grid_x			= 10
 inv_grid_y			= 11
 
 k_dist			= 1
-k_disp			= 2.5;3
-k_hit			= 1
+k_disp			= 1
+k_hit			= 0.95
 k_impulse		= 1
-k_pierce		= 1.75
+k_pierce		= 1.5
 impair			= 1.05
 buck_shot		= 1
 tracer			= on
@@ -413,7 +413,7 @@ inv_grid_y			= 10
 
 
 k_dist			= 1
-k_disp			= 2.5;3
+k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
 k_pierce		= 1
@@ -447,10 +447,10 @@ inv_grid_x			= 8
 inv_grid_y			= 11
 
 k_dist			= 1
-k_disp			= 2.5;3
-k_hit			= 1
+k_disp			= 1
+k_hit			= 0.75
 k_impulse		= 1
-k_pierce		= 1.25
+k_pierce		= 2
 impair			= 1.05
 buck_shot		= 1
 tracer			= on
@@ -481,10 +481,10 @@ inv_grid_x			= 15
 inv_grid_y			= 9
 
 k_dist			= 1
-k_disp			= 1.5;3
+k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1.25
+k_pierce		= 1
 impair			= 1
 buck_shot		= 1
 tracer			= on
@@ -515,10 +515,10 @@ inv_grid_x			= 15
 inv_grid_y			= 10
 
 k_dist			= 1
-k_disp			= 1.5;3
-k_hit			= 1.2
+k_disp			= 1
+k_hit			= 0.95
 k_impulse		= 0.95
-k_pierce		= 2.25
+k_pierce		= 1.5
 impair			= 1.05
 buck_shot		= 1
 tracer			= on
@@ -549,10 +549,10 @@ inv_grid_x			= 17
 inv_grid_y			= 9
 
 k_dist			= 1.25
-k_disp			= 1
+k_disp			= 0.75
 k_hit			= 1.1
 k_impulse		= 1.2
-k_pierce		= 1.75
+k_pierce		= 1.0
 impair			= 1.25
 buck_shot		= 1
 tracer			= on
@@ -584,11 +584,11 @@ inv_grid_x			= 17
 inv_grid_y			= 10
 
 k_dist			= 1
-k_disp			= 2.5;3
+k_disp			= 1
 k_hit			= 1
 k_impulse		= 1.2
 k_pierce		= 1
-impair			= 1.3
+impair			= 0.7
 buck_shot		= 1
 tracer			= on
 wm_size         = 0.05
@@ -617,14 +617,14 @@ inv_grid_height		= 1
 inv_grid_x			= 4
 inv_grid_y			= 14
 
-k_dist			= 1.1
+k_dist			= 1
 k_disp			= 1
-k_hit			= 1.1
-k_impulse		= 10
-k_pierce		= 2.5
+k_hit			= 1
+k_impulse		= 1.2
+k_pierce		= 1
 impair			= 0.7
 buck_shot		= 1
-tracer			= off
+tracer			= on
 wm_size         = 0.05
 
 explosive		= on
@@ -654,10 +654,10 @@ inv_grid_x			= 5
 inv_grid_y			= 12
 
 k_dist			= 1
-k_disp			= 2.5;3
-k_hit			= 1.2
+k_disp			= 1
+k_hit			= 0.95
 k_impulse		= 0.95
-k_pierce		= 2.25;1.25
+k_pierce		= 1.5
 impair			= 1.05
 buck_shot		= 1
 tracer			= on
@@ -688,11 +688,11 @@ inv_grid_x			= 18
 inv_grid_y			= 11
 
 k_dist			= 1.25
-k_disp			= 2;3
+k_disp			= 1
 k_hit			= 1.1
 k_impulse		= 1
-k_pierce		= 1.35
-impair			= 1.05
+k_pierce		= 1.0
+impair			= 1.25
 buck_shot		= 1
 tracer			= on
 wm_size         = 0.05
@@ -722,10 +722,10 @@ inv_grid_x         = 14
 inv_grid_y         = 23
 
 k_dist			= 1
-k_disp			= 3
+k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1
+k_pierce		= 0.5
 impair			= 1
 buck_shot		= 1
 tracer			= on
@@ -756,10 +756,10 @@ inv_grid_x         = 13
 inv_grid_y         = 23
 
 k_dist			= 0.95
-k_disp			= 3
-k_hit			= 1.1
+k_disp			= 1
+k_hit			= 1.2
 k_impulse		= 1.2
-k_pierce		= 1.35
+k_pierce		= 1.1
 impair			= 1.15
 buck_shot		= 1
 tracer			= on
@@ -789,11 +789,11 @@ inv_grid_height		= 1
 inv_grid_x			= 13
 inv_grid_y			= 9
 
-k_dist			= 0.75;1
-k_disp			= 10;
-k_hit			= 0.4
+k_dist			= 1.0
+k_disp			= 10
+k_hit			= 0.35
 k_impulse		= 0.3
-k_pierce		= 0.8
+k_pierce		= 0.5
 impair			= 1
 buck_shot		= 10
 tracer			= off
@@ -816,18 +816,18 @@ box_size		= 10
 
 inv_name		= ammo-12x76-dart
 inv_name_short	= ammo-12x76-dart_s
-inv_weight		= .5
+inv_weight		= .50
 
 inv_grid_width		= 2
 inv_grid_height		= 1
 inv_grid_x			= 13
 inv_grid_y			= 10
 
-k_dist			= 1.5 ;2.5
+k_dist			= 2.5
 k_disp			= 0.8
-k_hit			= 1.25
+k_hit			= 1.1
 k_impulse		= 1.3
-k_pierce		= 2.25
+k_pierce		= 1.2;1
 impair			= 1.2
 buck_shot		= 1
 tracer			= on
@@ -850,18 +850,18 @@ box_size		= 10
 
 inv_name		= ammo-12x76-zhekan
 inv_name_short	= ammo-12x76-zhekan_s
-inv_weight		= .5
+inv_weight		= .50
 
 inv_grid_width		= 2
 inv_grid_height		= 1
 inv_grid_x			= 11
 inv_grid_y			= 10
 
-k_dist			= 1.0 ;1.5
-k_disp			= 1.0
-k_hit			= 1.25
+k_dist			= 1.5
+k_disp			= 1.3
+k_hit			= 1.3
 k_impulse		= 1.5
-k_pierce		= 1.75
+k_pierce		= 0.8
 impair			= 1.15
 buck_shot		= 1
 tracer			= on
@@ -901,7 +901,7 @@ k_dist			= 1
 k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1.25
+k_pierce		= 2
 impair			= 1.15
 buck_shot		= 0
 tracer			= off
@@ -946,7 +946,7 @@ k_dist			= 1.3
 k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1.25
+k_pierce		= 1
 impair			= 1
 buck_shot		= 0
 tracer			= off
@@ -993,7 +993,7 @@ k_dist			= 1
 k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1.25
+k_pierce		= 1
 impair			= 1
 buck_shot		= 0
 tracer			= off
@@ -1038,7 +1038,7 @@ k_dist			= 1
 k_disp			= 1
 k_hit			= 1
 k_impulse		= 1
-k_pierce		= 1.25
+k_pierce		= 1
 impair			= 1
 buck_shot		= 0
 tracer			= off
@@ -1066,12 +1066,12 @@ cost				= 150
 
 blast				= 2.00;150
 blast_r				= 5
-blast_impulse		= 250
+blast_impulse		= 350
 ;delete
 blast_impulse_factor = 1
 
 
-frags				= 6
+frags				= 3
 frags_r				= 20
 frag_hit			= 1.50
 frag_hit_impulse	= 200
@@ -1102,6 +1102,8 @@ wm_size         = 0.05
 
 ;трассы от осколков
 fragment_speed				= 100
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 explode_duration		 = 5		;подолжительность взрыва (с)
 
@@ -1142,13 +1144,13 @@ inv_weight				= 0
 cost					 = 150
 
 blast				= 2.00;150
-blast_r				= 6
-blast_impulse		= 250
+blast_r				= 5
+blast_impulse		= 350
 ;delete
 blast_impulse_factor = 1
 
 
-frags				= 8
+frags				= 4
 frags_r				= 20
 frag_hit			= 1.50
 frag_hit_impulse	= 200
@@ -1176,6 +1178,8 @@ jump_height = 1
 
 ;трассы от осколков
 fragment_speed				= 100
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 wm_size         = 0.05
 ;wallmarks
@@ -1221,13 +1225,13 @@ inv_weight				= 0
 cost					 = 150
 
 blast				= 2.00;150
-blast_r				= 6
-blast_impulse		= 250
+blast_r				= 5
+blast_impulse		= 200
 ;delete
 blast_impulse_factor = 1
 
 
-frags				= 6
+frags				= 3
 frags_r				= 25
 frag_hit			= 1.50
 frag_hit_impulse	= 200
@@ -1255,6 +1259,8 @@ jump_height = 1
 
 ;трассы от осколков
 fragment_speed				= 100
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 ;wallmarks
 wallmark_section			= explosion_marks
 wm_size						= 0.1 ;0.05
@@ -1317,20 +1323,20 @@ cost				= 50
 ;-----------------------------------------------------------------------------------
 blast				= 1.50
 blast_r				= 8
-blast_impulse		= 250
+blast_impulse		= 350
 ;delete
 blast_impulse_factor = 1
 
 
 frags				= 5
-frags_r				= 15
+frags_r				= 10
 frag_hit			= 0.75
-frag_hit_impulse	= 150
+frag_hit_impulse	= 250
 
 hit_type_blast		= explosion
 hit_type_frag		= burn
 
-up_throw_factor		= 1.0
+up_throw_factor		= 1.5
 ;-----------------------------------------------------------------------------------
 wm_size                  = 0.1
 
@@ -1342,6 +1348,8 @@ light_time 		         = 1.5
 
 ;трассы от осколков
 fragment_speed				= 100
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 explode_duration		 = 5		;подолжительность взрыва (с)
 ;wallmarks
@@ -1387,15 +1395,15 @@ cost				= 50
 ;-----------------------------------------------------------------------------------
 blast				= 1.50
 blast_r				= 8
-blast_impulse		= 250
+blast_impulse		= 350
 ;delete
 blast_impulse_factor = 1
 
 
 frags				= 5
-frags_r				= 15
+frags_r				= 10
 frag_hit			= 0.75
-frag_hit_impulse	= 150
+frag_hit_impulse	= 250
 
 hit_type_blast		= explosion
 hit_type_frag		= burn
@@ -1412,6 +1420,8 @@ light_time 		         = 1
 
 ;трассы от осколков
 fragment_speed				= 100		;скорость осколков (м/с)
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 explode_duration		 = 5		;подолжительность взрыва (с)
 ;wallmarks
@@ -1456,22 +1466,22 @@ can_take			= false
 
 cost				= 500
 ;-----------------------------------------------------------------------------------
-blast				= 1.50
+blast				= 2.50
 blast_r				= 8
-blast_impulse		= 250
+blast_impulse		= 350
 ;delete
 blast_impulse_factor = 1
 
 
 frags				= 5
 frags_r				= 15
-frag_hit			= 0.75
-frag_hit_impulse	= 150
+frag_hit			= 1.75
+frag_hit_impulse	= 250
 
 hit_type_blast		= explosion
 hit_type_frag		= burn
 
-up_throw_factor		= 1.0
+up_throw_factor		= 1.7
 ;-----------------------------------------------------------------------------------
 wm_size                  = 0.1
 
@@ -1483,6 +1493,8 @@ light_time 		         = 0.85
 
 ;трассы от осколков
 fragment_speed				= 100		;скорость осколков (м/с)
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 explode_duration		 = 5		;подолжительность взрыва (с)
 
@@ -1530,17 +1542,17 @@ can_take			= false
 
 cost				= 500
 ;-----------------------------------------------------------------------------------
-blast				= 1.50
+blast				= 2.50
 blast_r				= 8
-blast_impulse		= 250
+blast_impulse		= 350
 ;delete
 blast_impulse_factor = 1
 
 
 frags				= 5
 frags_r				= 15
-frag_hit			= 0.75
-frag_hit_impulse	= 150
+frag_hit			= 1.75
+frag_hit_impulse	= 250
 
 hit_type_blast		= explosion
 hit_type_frag		= burn
@@ -1557,6 +1569,8 @@ light_time 		         = 0.85
 
 ;трассы от осколков
 fragment_speed				= 100		;скорость осколков (м/с)
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 explode_duration		 = 5		;подолжительность взрыва (с)
 
@@ -1604,7 +1618,7 @@ cost				= 500
 ;-----------------------------------------------------------------------------------
 blast				= 1.50
 blast_r				= 8
-blast_impulse		= 250
+blast_impulse		= 320
 ;delete
 blast_impulse_factor = 1
 
@@ -1612,12 +1626,12 @@ blast_impulse_factor = 1
 frags				= 5
 frags_r				= 15
 frag_hit			= 0.75
-frag_hit_impulse	= 150
+frag_hit_impulse	= 250
 
 hit_type_blast		= explosion
 hit_type_frag		= burn
 
-up_throw_factor		= 1.0
+up_throw_factor		= 1.3
 ;-----------------------------------------------------------------------------------
 wm_size                  = 0.1
 
@@ -1629,6 +1643,8 @@ light_time 		         = 1
 
 ;трассы от осколков
 fragment_speed				= 100		;скорость осколков (м/с)
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 explode_duration		 = 5		;подолжительность взрыва (с)
 
@@ -1676,21 +1692,21 @@ can_take			= false
 cost				= 50
 ;-----------------------------------------------------------------------------------
 blast				= 2.00
-blast_r				= 5
-blast_impulse		= 250
+blast_r				= 8
+blast_impulse		= 350
 ;delete
 blast_impulse_factor = 1
 
 
 frags				= 5
-frags_r				= 8
+frags_r				= 10
 frag_hit			= 0.55
-frag_hit_impulse	= 150
+frag_hit_impulse	= 250
 
 hit_type_blast		= chemical_burn ;explosion
 hit_type_frag		= burn
 
-up_throw_factor		= 1.0
+up_throw_factor		= 1.5
 ;-----------------------------------------------------------------------------------
 wm_size                  = 0.1
 
@@ -1702,6 +1718,8 @@ light_time 		         = 1.5
 
 ;трассы от осколков
 fragment_speed				= 100
+tracer_head_speed	     = 100
+tracer_max_length		 = 3
 
 explode_duration		 = 5		;подолжительность взрыва (с)
 
@@ -1847,9 +1865,3 @@ inv_grid_height		= 1
 inv_grid_x			= 17
 inv_grid_y			= 3
 grenade_vel			= 71
-
-[scope_detector]
-vis_frame_speed				= 4				; скорость, с которой наводится рамка на цель
-vis_frame_color				= 0.7,0.7,0.7,1.0	; цвет рамки RGBA (A) Не учитывается
-found_snd					= detectors\DA-2_beep1
-catch_snd					= detectors\DA-2_beep1

@@ -6,8 +6,8 @@ inv_name						= novice_outfit_name_m
 inv_name_short					= novice_outfit_name_m
 description						= novice_outfit_description_m
 health_restore_speed			= 0.0006
-satiety_restore_speed			= 0.00002 ;0.001
-bleeding_restore_speed			= 0.006
+satiety_restore_speed			= 0.001
+bleeding_restore_speed			= -0.006
 power_restore_speed				= 0.003
 inv_grid_x						= 12
 inv_grid_y						= 21
@@ -64,7 +64,7 @@ $spawn							= "outfit\uniq\outfit_specnaz_m1"
 inv_name						= specnaz_outfit_name_m1
 inv_name_short					= specnaz_outfit_name_m1
 description						= specnaz_outfit_description_m1
-bleeding_restore_speed			= 0.006
+bleeding_restore_speed			= -0.006
 inv_grid_x						= 18
 inv_grid_y						= 24
 ; TODO Уменьшить износ
@@ -178,10 +178,7 @@ inv_weight			= 2.8
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= ;
 light_disabled					= true
-snd_shoot					= weapons\w_ak74_shot1
-snd_shoot1					= weapons\w_ak74_shot1
-snd_shoot2					= weapons\w_ak74_shot1
-snd_shoot3					= weapons\w_ak74_shot1
+snd_shoot					= weapons\545_sil_alt
 
 [wpn_mp5_m1]:wpn_mp5	;Модифицированный МП5
 $spawn             				= "weapons\uniq\wpn_mp5_m1"
@@ -266,7 +263,7 @@ inv_grid_y         = 35
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
-snd_shoot					= weapons\w_ak74_shot1 
+snd_shoot					= weapons\556_sil_alt 
 
 [wpn_svd_m1]:wpn_svd	;СВД "Дальнобойщик"
 $spawn             				= "weapons\uniq\wpn_svd_m1"	
@@ -317,7 +314,7 @@ inv_grid_y						= 20
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
-snd_shoot			= weapons\colt_m1_sil
+snd_shoot			= weapons\45acp_sil_alt
 inv_weight			= 1.2
 
 
@@ -347,7 +344,7 @@ smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
 
-snd_shoot						= weapons\w_ak74_shot1 
+snd_shoot						= weapons\9mm_sil_alt 
 inv_weight			= 2.6
 
 [wpn_abakan_m2]:wpn_abakan	;АH-94 штурмовой
@@ -376,7 +373,7 @@ inv_grid_y						= 24
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= ;
 light_disabled					= true
-snd_shoot					= weapons\w_ak74_shot1
+snd_shoot					= weapons\556_sil_alt
 
 [wpn_sig_m2]:wpn_sig550	;SiG снайперский
 $spawn             				= "weapons\uniq\wpn_sig_m2"	
@@ -472,8 +469,8 @@ inv_grid_y						= 22
 [wpn_vintorez_coll]:wpn_vintorez
 $spawn                  = "devices\uniq\wpn_vintorez_coll"				; option for Level Editor
 condition_shot_dec 		= 0.0001										;увеличение износа при каждом выстреле
-inv_grid_x			= 17
-inv_grid_y         = 35
+inv_grid_x				= 5
+inv_grid_y				= 34
 description				= enc_weapons1_wpn-vintorez_coll
 inv_name	        	= wpn-vintorez_coll
 inv_name_short			= wpn-vintorez_coll

@@ -91,21 +91,21 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power           = 0.33, 0.36, 0.39, 0.42
-hit_impulse		 	= 125
-hit_type 			= fire_wound
-fire_distance       = 50
+hit_power                	= 0.50
+hit_impulse		 		 	= 87,5
+hit_type = fire_wound
+fire_distance            	= 125
 
-bullet_speed			= 355		;начальная скорость пули
-rpm                      	= 240
+bullet_speed			 	= 330			;начальная скорость пули
+rpm                      	= 280
 ; end ttc
 
 use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
 time_to_aim					= 1.0	
 
-silencer_hit_power       	= 0.36
-silencer_hit_impulse	 	= 110
-silencer_fire_distance   	= 50
+silencer_hit_power       	= 0.40
+silencer_hit_impulse	 	= 60
+silencer_fire_distance   	= 100
 silencer_bullet_speed	 	= 230
 
 hud                      	= wpn_hpsa_old_hud
@@ -142,7 +142,7 @@ scope_zoom_factor	    	= 55
 ;звуки
 snd_draw					= weapons\pm_draw
 snd_holster					= weapons\generic_holster
-snd_shoot					= weapons\t_hpsa_shot       ;walther_p99_shoot ; hpsa_shoot
+snd_shoot					= weapons\hpsa_shoot       ;walther_p99_shoot ; hpsa_shoot
 snd_empty					= weapons\pistol_empty
 snd_reload					= weapons\pm_reload, 0.8
 snd_close					= weapons\generic_close
@@ -161,7 +161,7 @@ silencer_y 					= -16
 
 ;silencer_flame_particles 	= weapons\generic_weapon01
 silencer_smoke_particles 	= weapons\generic_shoot_00
-snd_silncer_shot			= weapons\w_ak74_shot1 
+snd_silncer_shot			= weapons\9mm_sil 
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01
 silencer_light_var_color	= 0.05

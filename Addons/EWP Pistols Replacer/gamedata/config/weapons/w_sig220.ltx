@@ -82,21 +82,22 @@ PDM_crouch_no_acc 		= 1.0
 
 ;-----------------------------------------------------------------------------------
 ; ttc
-hit_power           = 0.4, 0.44, 0.47, 0.50
-hit_impulse		 	= 125
-hit_type 			= fire_wound	
+hit_power                	= 0.65
+hit_impulse		 		 	= 105.5
+hit_type = fire_wound	
 
-fire_distance       = 50 ;1000
-bullet_speed		= 280		
-rpm                 = 270
+fire_distance            	= 150
+bullet_speed		 	 	= 280		
+rpm                      	= 300
+rpm_empty_click 	 		= 200
 ; end ttc
 
-use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
-time_to_aim					= 1.0	
+use_aim_bullet			= true		;Поддерживается ли первая суппер пуля
+time_to_aim			= 1.0	
 
-silencer_hit_power       	= 0.5
-silencer_hit_impulse	 	= 105
-silencer_fire_distance   	= 50
+silencer_hit_power       	= 0.45
+silencer_hit_impulse	 	= 90
+silencer_fire_distance   	= 100
 silencer_bullet_speed	 	= 240
 
 ;-----------------------------------------------------------------------------------
@@ -146,11 +147,11 @@ scope_zoom_factor	    	= 90
 ;звуки
 snd_draw					= weapons\pistol_draw
 snd_holster					= weapons\pistol_holster
-snd_shoot					= weapons\usp_shoot
+snd_shoot					= weapons\sig220_shoot
 snd_empty					= weapons\sig220\sig220_empty
 snd_reload					= weapons\sig220\sig_p220_reload
 snd_close					= weapons\sig220\sig220_close
-snd_silncer_shot		= weapons\silencer4a 
+snd_silncer_shot		= weapons\45acp_sil 
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -166,7 +167,7 @@ silencer_y 			= -13;-12
 
 ;silencer_flame_particles 	= weapons\generic_weapon01
 silencer_smoke_particles 	= weapons\generic_shoot_00
-snd_silncer_shot		= weapons\silencer4a 
+snd_silncer_shot		= weapons\45acp_sil 
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01
 silencer_light_var_color	= 0.05

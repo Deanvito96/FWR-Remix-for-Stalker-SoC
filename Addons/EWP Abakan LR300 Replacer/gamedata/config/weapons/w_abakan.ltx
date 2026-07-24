@@ -109,13 +109,13 @@ PDM_crouch	 			= 1.0
 PDM_crouch_no_acc 			= 1.0
 
 ; ttc
-hit_power               = 0.42, 0.46, 0.49, 0.52 ;0.36, 0.40, 0.43, 0.46	; size of damage by bullet
-hit_impulse		 		= 140		; size of physic impulse by bullet	
+hit_power                	= 0.57						; size of damage by bullet
+hit_impulse		 			= 110						; size of physic impulse by bullet	
 hit_type 					= fire_wound 				; [] type of the wound
 
-fire_distance            		= 1000						; maximum fire distance that bullet can fly
+fire_distance            	= 450						; maximum fire distance that bullet can fly
 bullet_speed				= 900						; starting bullet speed
-rpm                      		= 600
+rpm                      	= 800		
 rpm_mode_2 = 1800
 cycle_down = true
 
@@ -170,16 +170,13 @@ grenade_launcher_y 			= 24
 ;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
 snd_draw			= weapons\generic_draw
 snd_holster			= weapons\generic_holster
-snd_shoot					= weapons\ak74_shot_0
-snd_shoot1					= weapons\ak74_shot_1
-snd_shoot2					= weapons\ak74_shot_2
-snd_shoot3					= weapons\ak74_shot_3		
+snd_shoot					= weapons\abakan_shoot
 snd_empty					= weapons\abakan\abakan_empty, 0.7
 snd_reload					= weapons\an94_reload
 snd_shoot_grenade		= weapons\gen_grenshoot
 snd_reload_grenade			= weapons\gp30\gp30_grenload, 1.0, 1.5
 snd_switch					= weapons\gp30\gp30_switch, 1.0, 0.5
-snd_silncer_shot			= weapons\w_ak74_shot1 
+snd_silncer_shot			= weapons\545_sil 
 
 
 ;silencer_flame_particles 	= weapons\generic_weapon01

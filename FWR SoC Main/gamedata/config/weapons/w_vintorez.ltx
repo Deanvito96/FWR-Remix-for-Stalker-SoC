@@ -95,13 +95,13 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power           = 0.65, 0.69, 0.72, 0.75
-hit_impulse		    = 100
-hit_type 			= fire_wound
+hit_power                	= 0.71 ; 51.25; 31.25 - увеличил хит поскольку уменьшил размер магазина до стандартных 10 патронов
+hit_impulse		         	= 87
+hit_type = fire_wound
 
-fire_distance           = 400 ;1000
-bullet_speed			= 290	;начальная скорость пули
-rpm                     = 600
+fire_distance            	= 400
+bullet_speed			 	= 280						;начальная скорость пули
+rpm                      	= 600
 ; end ttc
 
 use_aim_bullet			= true		;Поддерживается ли первая суппер пуля
@@ -143,10 +143,8 @@ scope_zoom_factor	    	= 50
 snd_draw			= weapons\generic_draw
 snd_holster			= weapons\generic_holster
 ;snd_shoot					= weapons\t_vintorez_shot      ;silencer4a
-snd_shoot					= weapons\tm_val_shot_0      ; t_val_shot     ;silencer4a
-snd_shoot1					= weapons\tm_val_shot_1
-snd_shoot2					= weapons\tm_val_shot_2
-snd_shoot3					= weapons\tm_val_shot_3
+snd_shoot					= weapons\vintorez_shoot      ; t_val_shot     ;silencer4a
+snd_shoot1					= weapons\vintorez_shoot2
 snd_empty			= weapons\gen_empty, 0.5
 snd_reload			= weapons\vss_reload
 snd_shoot_grenade		= weapons\gen_grenshoot

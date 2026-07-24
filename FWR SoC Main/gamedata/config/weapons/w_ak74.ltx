@@ -98,10 +98,11 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power                	= 0.4, 0.44, 0.47, 0.5 ;0.35, 0.39, 0.42, 0.45		; size of damage by bullet
-hit_impulse		 			= 140		; size of physic impulse by bullet	
+hit_power                	= 0.55		; size of damage by bullet
+hit_impulse		 			= 100						; size of physic impulse by bullet	
 hit_type 					= fire_wound 	; [] type of the wound
-fire_distance            	= 1000		; maximum fire distance that bullet can fly
+
+fire_distance            	= 450						; maximum fire distance that bullet can fly
 bullet_speed				= 900		; starting bullet speed
 rpm                      	= 600		; max round per minute
 
@@ -111,7 +112,7 @@ time_to_aim			= 1.0
 ;params when silencer is attached 
 ;similar to corresponding params without prefix silencer_
 
-silencer_hit_power       	= 0.44 ;0.38
+silencer_hit_power       	= 0.45
 silencer_hit_impulse	 	= 120
 silencer_fire_distance   	= 250
 silencer_bullet_speed	 	= 600
@@ -160,10 +161,7 @@ grenade_launcher_y 		= 23
 ;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
 snd_draw			= weapons\generic_draw
 snd_holster			= weapons\generic_holster
-snd_shoot					= weapons\ak74_shot_0
-snd_shoot1					= weapons\ak74_shot_1
-snd_shoot2					= weapons\ak74_shot_2
-snd_shoot3					= weapons\ak74_shot_3		
+snd_shoot					= weapons\ak74_shoot	
 snd_empty			= weapons\gen_empty, 0.5
 snd_reload			= weapons\ak74_reload
 snd_shoot_grenade		= weapons\gen_grenshoot
@@ -171,7 +169,7 @@ snd_reload_grenade		= weapons\gen_grenload, 1.0, 0.8
 snd_switch			= weapons\groza_switch, 1.0, 0.5
 
 silencer_smoke_particles 	= weapons\generic_shoot_00
-snd_silncer_shot		= weapons\w_ak74_shot1 
+snd_silncer_shot		= weapons\545_sil 
 
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01

@@ -73,12 +73,16 @@ PDM_disp_accel_factor 					= 0.7
 PDM_crouch	 							= 1.0
 PDM_crouch_no_acc 						= 1.0
 
-hit_power        	= 0.3, 0.34, 0.37, 0.40
-hit_impulse		 	= 80
-hit_type 		 	= fire_wound
-fire_distance    		= 150
-bullet_speed			= 290	;íà÷àëüíàÿ ñêîðîñòü ïóëè
-rpm                     				= 260
+; ttc
+hit_power        	        = 0.40
+hit_impulse		 			= 56
+hit_type 		 			= fire_wound
+
+fire_distance    	        = 80
+bullet_speed				= 280			;начальная скорость пули
+rpm              	        = 340
+; end ttc
+
 rpm_empty_click 	 					= 100
 ph_mass			 						= 1
 use_aim_bullet							= true
@@ -116,7 +120,7 @@ snd_shoot					= weapons\pb_shoot
 snd_empty								= weapons\makarov\pm_empty
 snd_reload								= weapons\makarov\pm_reload
 snd_close								= weapons\generic_hide
-snd_silncer_shot		= weapons\silencer4a 
+snd_silncer_shot		= weapons\pb_shoot 
 
 silencer_name  							= wpn_addon_silencer
 silencer_x 								= 37

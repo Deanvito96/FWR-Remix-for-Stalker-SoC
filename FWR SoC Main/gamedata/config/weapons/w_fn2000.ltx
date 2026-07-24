@@ -97,13 +97,13 @@ PDM_crouch	 		= 1.0
 PDM_crouch_no_acc 		= 1.0
 
 ; ttc
-hit_power          = 0.60, 0.64, 0.67, 0.70
-hit_impulse		   = 105
-hit_type 		   = fire_wound
-silencer_hit_power	= 0.73
-fire_distance            	= 400
-bullet_speed			= 925	;начальная скорость пули
-rpm                      	= 860
+hit_power                = 0.55
+hit_impulse		         = 105
+hit_type = fire_wound
+
+fire_distance            = 400
+bullet_speed			 = 900		;начальная скорость пули
+rpm                      = 850
 ; end ttc
 
 use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
@@ -156,7 +156,7 @@ scope_zoom_factor	    	= 33.3 			;1.8X		; fov for zoom mode
 ;звуки
 snd_draw			= weapons\generic_draw
 snd_holster			= weapons\generic_holster
-snd_shoot			= weapons\t_fn2000_shot              ;fn2000_shoot	;weapons\generic_shoot
+snd_shoot			= weapons\fn2000_shoot              ;fn2000_shoot	;weapons\generic_shoot
 snd_empty			= weapons\gen_empty, 0.5
 snd_reload			= weapons\fn2000\reload
 snd_shoot_grenade	= weapons\gen_grenshoot
@@ -170,7 +170,7 @@ snd_switch					= weapons\groza_switch, 1.0, 0.5
 ;silencer_flame_particles 	= weapons\generic_weapon01
 silencer_smoke_particles 	= weapons\generic_shoot_00
 
-snd_silncer_shot			= weapons\w_ak74_shot1 
+snd_silncer_shot			= weapons\556_sil 
 
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01
