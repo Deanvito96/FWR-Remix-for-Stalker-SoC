@@ -23,7 +23,7 @@ This project is built upon **FWR OLR**, adapted to play seamlessly with vanilla 
 | **EWP Pistols Replacer** | Replaces all FWR pistols with EWP models (since base FWR only reanimates the PM and PB). |
 | **EWP Sawn-Off** | Swaps the FWR full-length double-barrel shotgun for the EWP sawn-off variant. |
 | **EWP Gauss** | Replaces the vanilla Gauss Rifle with the EWP version (removed the susat and essentially changed the gauss into proper rifle). |
-| **EWP Unique Weapons Replacer** | Overhauls unique SoC weapons using EWP models. Adds the **VSK-94** *(RMA mod only)*, **MP-133**, and **RPK**. |
+| **EWP Unique Weapons Replacer** | Overhauls unique SoC weapons using EWP models. Adds the **VSK-94**, **MP-133**, and **RPK**. |
 | **Real Weapon Names** | Restores real-world weapon names across all guns, matching early S.T.A.L.K.E.R. development builds. |
 | **Build Arm Textures** | Swaps stock SoC arm textures for classic green build-style sleeves and gloves. |
 
